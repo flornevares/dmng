@@ -1,0 +1,42 @@
+.contenedorpadre{
+	display: grid;
+	grid-template-areas: 
+	"instagram reel contacto"
+	"frase frase frase";
+	grid-auto-columns: 33% 33% 33%;
+	grid-template-rows: 100px 600px;
+}
+
+.frase{
+	grid-area: frase;
+	width: 80%;
+}
+
+.instagram{
+	grid-area: instagram;
+	justify-self: safe center;
+	align-self: center;
+}
+
+
+.reel{
+	grid-area: reel;
+	justify-self: safe center;
+	align-self: center;
+	
+}
+
+.contacto{
+	grid-area: contacto;
+	justify-self: safe center;
+	align-self: center;
+}
+
+.frase{
+	display: flex;
+	flex-direction: row;
+	justify-self: center;
+	align-self: center;
+}
+
+
